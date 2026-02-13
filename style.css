@@ -7,21 +7,25 @@ body,html{
     height: 100%;
     width: 100%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   
-}
+   }
 main{
-    width: 100%;
-     display: flex;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    background-color:;
 
 }
 .box{
     display: flex;
+    width: 80vw;
+    background-color: rgb(211, 211, 211);
+    flex-wrap: 1;
     align-items: center;
-    justify-content: center;
      flex-direction: column;
+     border: 0.1rem solid black;
+     padding: 1.5rem;
 }
 
 h1{
@@ -34,4 +38,14 @@ p{
     color: #777;
     font-size: 1.3rem;
     font-weight: 500;
+    margin-bottom: 2rem;
+}
+button{
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(137, 145, 137);
+    border: solid 2px black;
+
 }
